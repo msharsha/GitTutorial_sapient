@@ -1,0 +1,296 @@
+    1  git -version
+    2  git version
+    3  pwd
+    4  ls -all
+    5  git init
+    6  ls -all
+    7  git config --global user.name msharsha
+    8  list
+    9  git config --global list
+   10  git config --global --list
+   11  git config --global user.email manojsreeharsha.vuppuluri@publicissapient.com
+   12  git config --global --list
+   13  touch a.txt
+   14  ls
+   15  git status
+   16  git add a.txt
+   17  git status
+   18  git commit -m "Intial commit"
+   19  git status
+   20  touch b.txt
+   21  git add .
+   22  git commit -m "second commit"
+   23  git status
+   24  git log
+   25  cd .git
+   26  ls
+   27  cd objects/
+   28  ls
+   29  cd 59/
+   30  ls
+   31  cat a4492e0fb1fa6cf1a7f87d151c611d8584606c 
+   32  cd ..
+   33  cd ..
+   34  ls
+   35  cd HEAD 
+   36  cat HEAD
+   37  cd ..
+   38  clear
+   39  code .
+   40  vi
+   41  git status
+   42  git status
+   43  git checkout --a.txt
+   44  git checkout --
+   45  git checkout -- a.txt
+   46  git status
+   47  touch a.txt
+   48  cat a.txt 
+   49  vi a.txt 
+   50  git add .
+   51  cat a.txt
+   52  git add a.txt 
+   53  git status
+   54  git reset a.txt
+   55  git status
+   56  git checkout a.txt
+   57  git status
+   58  cat a.txt
+   59  vi a.txt 
+   60  git commit -am "third commit"
+   61  cat a.txt 
+   62  git status
+   63  git logs
+   64  git log
+   65  git reset HEAD
+   66  git log
+   67  git log --oneline
+   68  git checkout 59a4492
+   69  cd .git/
+   70  git checkout 59a4492
+   71  cd ..
+   72  git checkout 59a4492
+   73  git log
+   74  git checkout 59a4492
+   75  git log
+   76  cat a.txt 
+   77  clear
+   78  git checkout master
+   79  git log
+   80  git remote add origin https://github.com/msharsha/sapient_sample.git
+   81  git remote add origin https://github.com/msharsha/sapient_sample.git
+   82  git add remote origin https://github.com/msharsha/sapient_sample.git
+   83  cd gi
+   84  git remote add origin
+   85  git remote add origin https://github.com/msharsha/sapient_sample.git
+   86  cd git-session/
+   87  git remote add origin https://github.com/msharsha/sapient_sample.git
+   88  git push -u origin master
+   89  git status
+   90  git log
+   91  ssh keygen
+   92  cd .ssh
+   93  clear
+   94  ssh-keygen.exe 
+   95  cd ~/.ssh/
+   96  ls
+   97  notepad id_rsa.pub 
+   98  vi a.txt
+   99  git init
+  100  git status
+  101  vi a.txt 
+  102  vi a.txt
+  103  git commit -am "fourth commit"
+  104  git remote add origin https://github.com/msharsha/sapient_sample.git
+  105  git push -u origin master
+  106  git log
+  107  git push origin master
+  108  ssh-keygen
+  109  cd ~/.ssh
+  110  ls
+  111  notepad id_rsa
+  112  notepad id_rsa.pub 
+  113  cd ..
+  114  cd ..
+  115  cd manvuppu/
+  116  ls
+  117  git log
+  118  git status
+  119  git push origin master
+  120  git clone https://github.com/rohini1998/newRepo.git
+  121  touch msh.txt
+  122  vi msh.txt 
+  123  git add .
+  124  git status
+  125  git commit -m "msh commit 1"
+  126  git remote add origin https://github.com/rohini1998/newRepo.git
+  127  git push origin master
+  128  git push origin master
+  129  git pull origin master
+  130  git push origin master
+  131  git pull origin master
+  132  git pull origin master
+  133  git pull origin master
+  134  git pull origin master
+  135  vi groupName.txt 
+  136  git commit -am "Msh commit"
+  137  git push origin master
+  138  git pull origin master
+  139  cat groupName.txt 
+  140  vi groupName.txt 
+  141  git add .
+  142  git status
+  143  git pull origin master
+  144  git push origin master
+  145  git commit -am "1"
+  146  git push origin master
+  147  git push origin master
+  148  git pull origin master
+  149  cat gro
+  150  cat groupName.txt 
+  151  vi groupName.txt 
+  152  git push origin master
+  153  git pull origin master
+  154  git statu
+  155  git commit -am "2"git 
+  156  git pull origin master
+  157  cat groupName.txt 
+  158  git push origin master
+  159  git branch
+  160  git branch
+  161  git branch feauture-1
+  162  git branch
+  163  git log
+  164  git checkout feauture-1 
+  165  git log
+  166  git branch
+  167  touch c.txt
+  168  git commit -am "Adding c"
+  169  git add .
+  170  git status
+  171  git commit -m "adding c"
+  172  git log
+  173  git checkout master 
+  174  git log
+  175  git checkout feauture-1 
+  176  vi c.txt 
+  177  git add .
+  178  git status
+  179  git checkout master 
+  180  git checkout feauture-1 
+  181  git commit -m "modify c"
+  182  git log
+  183  git checkout master 
+  184  git log
+  185  git checkout feauture-1 
+  186  git log
+  187  clear
+  188  git log --oneline
+  189  git log
+  190  vi b.txt 
+  191  git commit -am "modify b"
+  192  git log
+  193  git checkout master 
+  194  git log
+  195  git checkout feauture-1 
+  196  git checkout master
+  197  git merge feauture-1 
+  198  git log --oneline 
+  199  git log
+  200  git branch -d feauture-1 
+  201  touch d.txt
+  202  git branch -b feature-1
+  203  git branch feature-1
+  204  git checkout feature-1 
+  205  git branch -d feature-1 
+  206  git checkout master 
+  207  git checkout -d feature-1
+  208  git branch -d feature-1
+  209  git log
+  210  git checkout -b feature-1
+  211  touch d.txt
+  212  vi d.txt
+  213  git add .
+  214  git commit -m "add d"
+  215  git checkout master 
+  216  git branch -d feature-1 
+  217  git push origin master
+  218  git pull origin 
+  219  git pull origin feature1
+  220  git branch
+  221  git branch
+  222  git pull origin feature1
+  223  git branch
+  224  git log
+  225  git checkout feature1
+  226  git log
+  227  git checkout master 
+  228  git log
+  229  git checkout feature1
+  230  touch e.txt
+  231  vi e.txt 
+  232  git add .
+  233  git commit -m "adding e"
+  234  git push origin feature1
+  235  git remote prune origin
+  236  git branch
+  237  git checkout master
+  238  git remote prune origin
+  239  git branch
+  240  git branch -d feature1
+  241  git branch -a
+  242  git merge feature1
+  243  git remote prune origin
+  244  git branch
+  245  git branch -a
+  246  git pull origin
+  247  git branch -a
+  248  git remote prune origin
+  249  git branch -a
+  250  git branch
+  251  git branch -d feature-1
+  252* git branch -d feature
+  253  git merge feature-1
+  254  git branch feature-1 
+  255  git checkout feature-1
+  256  git branch
+  257  git checkout feature-1
+  258  git status
+  259  git commit -am "d commit"
+  260  git checkout feature-1 
+  261  git checkout master 
+  262  git merge feature-1 
+  263  git checkout feature-1 
+  264  git merge master 
+  265  git checkout master 
+  266  git checkout feature-1 
+  267  git branch feature-2
+  268  touch d.txt
+  269  vi d.txt 
+  270  git add .
+  271  git commit -m "d file"
+  272  git checkout master
+  273  git merge feature-1
+  274  git checkout feature-2
+  275  touch f.txt
+  276  vi f.txt 
+  277  git checkout master
+  278  git merge feature-2
+  279  git checkout feature-2
+  280  git add .
+  281  git commit -m "f file"
+  282  git checkout master
+  283  git merge feature-2
+  284  git checkout feature-1
+  285  vi c.txt
+  286  git commit -am "mod c"
+  287  git checkout master 
+  288  git merge feature-1
+  289  git checkout feature-2
+  290  git rebase master
+  291  vi f.txt
+  292  git commit -am "mod f"
+  293  git checkout MAS
+  294  git checkout master 
+  295  git merge feature-2
+  296  history > commands.txt
